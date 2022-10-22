@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(146, 246, 213);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .message{
+    border: 5px groove rgb(51, 204, 28);
+    margin: 2rem;
+    border-radius: 1em;
+    justify-content:flex-start;
+    padding: 1em;
+    box-shadow: 0 10px 10px rgba(96, 43, 15, 0.381);
+  }
+  button{
+    background-color: red;
+    border-radius: .5em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .info{
+    text-align: end;
+  }
+  .profilePage{
+    font-size: large;
+    font-weight: 500;
+  }
+  .welcome{
+    text-align: center;
+  }
+  .updateLink {
+    font-size: xx-large;
+    font-weight: 700;
+  }
